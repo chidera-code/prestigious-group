@@ -287,34 +287,31 @@ small {
 
 .design-content {
   display: grid;
-  /* display: none; */
-  grid-template-columns: 50fr 50fr;
-  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 0.5fr);
+  gap: 5rem;
 }
 
 .design--img--box img {
-  width: 100%;
+  /* width: 100%; */
   display: block;
+  width: 100%;
+}
+.span-3 {
+  grid-auto-flow: row;
+}
+.span-3 img {
+  width: 100%;
+}
+.dib-1 {
+  padding-left: 5rem;
+}
+.dib-1 img {
+  width: 100%;
 }
 
 .design-text-box {
+  width: calc(100% + 5rem);
   display: flex;
   flex-direction: column;
-}
-.dib-1 {
-  width: 100%;
-  height: 100%;
-}
-.dib-2 {
-  grid-row: span 1.5;
-}
-
-.des--btn-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5rem;
-}
-.des--btn {
-  text-align: center;
 }
