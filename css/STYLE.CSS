@@ -71,9 +71,15 @@ body {
   grid-template-columns: 50fr;
   grid-template-rows: 50fr;
   grid-row: span 2;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 .hero-img-1 {
   grid-row: span 2;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 .hero-img-1 img {
   height: 100%;
@@ -86,6 +92,8 @@ body {
   font-size: 6rem;
   letter-spacing: 2px;
   text-transform: capitalize;
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
 .heading-secondary {
   font-size: 8rem;
