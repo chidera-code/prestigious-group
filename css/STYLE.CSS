@@ -329,6 +329,7 @@ small {
 
 .recent-btn {
   padding-bottom: 2rem;
+  font-size: 3rem;
 }
 
 .recent-imgs {
@@ -342,6 +343,10 @@ small {
 .recent-img img {
   width: 100%;
   display: block;
+}
+
+.section-news {
+  padding: 0 0 5rem;
 }
 .news-content {
   display: grid;
@@ -368,4 +373,15 @@ small {
   text-transform: capitalize;
   align-self: end;
   margin-bottom: 0.5rem;
+}
+.download-button {
+  display: block;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #ff8a00;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1rem 0 0.5rem;
+  text-align: center;
 }
