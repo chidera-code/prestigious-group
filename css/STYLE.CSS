@@ -326,3 +326,46 @@ small {
   text-transform: capitalize;
   cursor: pointer;
 }
+
+.recent-btn {
+  padding-bottom: 2rem;
+}
+
+.recent-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.recent-img:not(:last-child) {
+  padding-right: 3rem;
+}
+.recent-img img {
+  width: 100%;
+  display: block;
+}
+.news-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.news-heading {
+  padding-bottom: 0;
+}
+.news-img img {
+  width: 100%;
+}
+
+.news-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-box:not(:last-child) {
+  padding-right: 3rem;
+}
+.news-text {
+  font-size: 3rem;
+  text-transform: capitalize;
+  align-self: end;
+  margin-bottom: 0.5rem;
+}
