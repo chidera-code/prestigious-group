@@ -92,7 +92,7 @@ body {
   font-size: 6rem;
   letter-spacing: 2px;
   text-transform: capitalize;
-  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation: moveInBottom 0.8s ease-out 0.85s;
   animation-fill-mode: backwards;
 }
 .heading-secondary {
