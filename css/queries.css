@@ -1,0 +1,88 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 59%;
+  }
+
+  body {
+    box-shadow: 0 00 00 0.1rem #fff;
+
+    width: 98vw;
+    margin: 0 auto;
+  }
+  .container {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .heading-secondary {
+    font-size: 6rem;
+    text-transform: capitalize;
+    padding: 8rem 8rem 5rem 0;
+  }
+
+  .sec-about {
+    margin-bottom: 8rem;
+  }
+
+  .description {
+    font-size: 1.69rem;
+    line-height: 1.2;
+  }
+
+  .about-text-box:first-child p {
+    margin-bottom: 2rem;
+  }
+
+  .calm-text-box p {
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 8rem;
+  }
+  .calm-para {
+    font-size: 1.6rem;
+  }
+  .calm-para:last-child {
+    padding-left: 2rem;
+  }
+
+  .a-btn:link,
+  .a-btn:visited {
+    font-size: 1.6rem;
+  }
+
+  .strong {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .facilities {
+    margin-bottom: 0;
+  }
+
+  .pdb-mm {
+    padding: 5rem 0 4rem;
+  }
+
+  .section-news {
+    padding: 0 0 4rem;
+  }
+  .news-txt {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .footer-txt {
+    font-size: 6rem;
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 56em) {
+  html {
+    font-size: 54%;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+    letter-spacing: 1px;
+  }
+}
