@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   width: 96vw;
   margin: 0 auto;
+  position: relative;
 }
 
 .grid--2--cols {
@@ -379,7 +380,7 @@ small {
   flex-direction: column;
 }
 
-.news-box:not(:last-child) {
+.news-box:not(last-child) {
   padding-right: 3rem;
 }
 .news-text {
@@ -393,6 +394,12 @@ small {
   font-size: 3rem;
   color: #fff;
   background-color: #ff8a00;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 136, 0, 0.705),
+    rgba(0, 17, 255, 0.74)
+  );
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
