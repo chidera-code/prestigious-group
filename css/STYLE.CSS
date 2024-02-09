@@ -149,7 +149,7 @@ small {
   text-decoration: none;
   padding-top: 2rem;
   text-transform: capitalize;
-
+  letter-spacing: 1px;
   justify-content: center;
 }
 .about-more {
@@ -261,7 +261,7 @@ small {
   font-size: 1.8rem;
   text-decoration: none;
   text-transform: capitalize;
-
+  letter-spacing: 1px;
   justify-content: center;
   margin-top: auto;
 }
