@@ -308,7 +308,7 @@ small {
 
 .design--img--box img {
   /* width: 100%; */
-  display: block;
+  /* display: block; */
   width: 100%;
 }
 .span-3 {
@@ -317,9 +317,9 @@ small {
 .span-3 img {
   width: 100%;
 }
-.dib-1 {
+/* .dib-1 {
   padding-left: 5rem;
-}
+} */
 .dib-1 img {
   width: 100%;
 }
@@ -332,8 +332,8 @@ small {
 
 .des--btn {
   display: flex;
-  align-items: center !important;
-  justify-content: center !important;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
   /* display: inline-block; */
   text-decoration: none;
