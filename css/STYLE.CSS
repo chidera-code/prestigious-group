@@ -434,6 +434,8 @@ small {
   text-align: center;
   padding: 0;
   color: rgba(255, 136, 0, 0.329);
+}
+.foot-txt {
   text-decoration: none;
 }
 .policy,
