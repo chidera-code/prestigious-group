@@ -91,7 +91,7 @@ body {
   width: 100%;
 }
 .heading-primary {
-  font-size: 6rem;
+  font-size: 8rem;
   letter-spacing: 2px;
   text-transform: capitalize;
   animation: moveInBottom 0.8s ease-out 0.85s;
@@ -302,32 +302,40 @@ small {
 .design-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 0.5fr);
-  gap: 5rem;
+}
+.design-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 0.5fr);
 }
 
+.box-2 {
+  padding-left: 4rem;
+}
 .design--img--box img {
-  /* width: 100%; */
-  /* display: block; */
   width: 100%;
+  display: block;
 }
-.span-3 {
-  grid-auto-flow: row;
+
+.dib-1 {
+  grid-row: span 6;
 }
-.span-3 img {
-  width: 100%;
+.dib-2 {
+  grid-row: span 4;
+  padding-left: 4rem;
 }
-/* .dib-1 {
-  padding-left: 5rem;
-} */
-.dib-1 img {
-  width: 100%;
+.dib-3 {
+  grid-row: span 5;
+  padding-top: 4rem;
+  height: 100%;
 }
 
 .design-text-box {
-  width: calc(100% + 5rem);
+  width: calc(100% + 4rem);
   display: flex;
   flex-direction: column;
+  grid-row: span 3;
+  padding-bottom: 4rem;
 }
 
 .des--btn {
@@ -389,7 +397,8 @@ small {
   align-self: end;
   margin-bottom: 0.5rem;
 }
-.download-button {
+.download-button:link,
+.download-button:visited {
   display: block;
   font-size: 3rem;
   color: #fff;
@@ -406,6 +415,17 @@ small {
   padding: 1rem 0 0.5rem;
   text-align: center;
   letter-spacing: 0.2px;
+  transition-property: all 6s;
+}
+
+.download-button:hover,
+.download-button:active {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 17, 255, 0.74),
+    rgba(255, 136, 0, 0.705)
+  );
+  transform: scale(1);
 }
 
 .footer {
@@ -434,6 +454,7 @@ small {
   text-align: center;
   padding: 0;
   color: rgba(255, 136, 0, 0.329);
+  letter-spacing: 2px;
 }
 .foot-txt {
   text-decoration: none;
